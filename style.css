@@ -1,0 +1,94 @@
+
+body {
+  background-image: url('background1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #333;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #5e4bff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 10px 18px;
+  background-color: #fff;
+  border: 2px solid #5e4bff;
+  color: #5e4bff;
+  font-weight: 500;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #5e4bff;
+  color: #fff;
+}
+
+.talk-btn {
+  background-color: #5e4bff;
+  color: #fff;
+  padding: 10px 18px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero-content h2 span {
+  color: #5f4eff;
+}
+
+.hero-content h3 {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.hero-content p {
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.hero-image img {
+  max-width: 350px;
+  border-radius: 10px;
+}
